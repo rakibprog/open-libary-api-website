@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#not-found {
+    display: none;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.author {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.publish {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.first-publish {
+    font-size: 20px;
+    text-transform: capitalize;
+}
