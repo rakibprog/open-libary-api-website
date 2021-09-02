@@ -4,13 +4,13 @@ const searchBook = () => {
     const searchBook = document.getElementById('search-book');
     const searchValue = searchBook.value;
     if (searchValue.length === 0) {
-        const url = `http://openlibrary.org/search.json?q=facebook`;
+        const url = `https://openlibrary.org/search.json?q=facebook`;
         // fetch search data 
         fetch(url)
             .then(res => res.json())
             .then(data => displayBooks(data.docs))
     } else {
-        const url = `http://openlibrary.org/search.json?q=${searchValue}`;
+        const url = `https://openlibrary.org/search.json?q=${searchValue}`;
         // fetch search data 
         fetch(url)
             .then(res => res.json())
